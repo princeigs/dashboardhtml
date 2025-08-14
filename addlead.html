@@ -45,7 +45,7 @@
 		<!-- Loading starts -->
 		<div id="loading-wrapper">
 			<div class="spinner-border" role="status">
-				<span class="sr-only">Loading...</span>
+				<span class="visually-hidden">Loading...</span>
 			</div>
 		</div>
 		<!-- Loading ends -->
@@ -271,10 +271,10 @@
 						<!-- Header actions start -->
 						<ul class="header-actions">
 						    <li class="dropdown">
-								<a href="#" id="notifications" data-toggle="dropdown" aria-haspopup="true">
+								<a href="#" id="notifications" data-bs-toggle="dropdown" aria-haspopup="true">
 									<i class="icon-box"></i>
 								</a>
-								<div class="dropdown-menu dropdown-menu-right lrg" aria-labelledby="notifications">
+								<div class="dropdown-menu dropdown-menu-end lrg" aria-labelledby="notifications">
 									<div class="dropdown-menu-header">
 										Tasks (05)
 									</div>	
@@ -283,7 +283,7 @@
 											<p>#20 - Dashboard UI<span>90%</span></p>
 											<div class="progress">
 												<div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-													<span class="sr-only">90% Complete (success)</span>
+													<span class="visually-hidden">90% Complete (success)</span>
 												</div>
 											</div>
 										</li>
@@ -291,7 +291,7 @@
 											<p>#35 - Alignment Fix<span>60%</span></p>
 											<div class="progress">
 												<div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-													<span class="sr-only">60% Complete (success)</span>
+													<span class="visually-hidden">60% Complete (success)</span>
 												</div>
 											</div>
 										</li>
@@ -299,7 +299,7 @@
 											<p>#50 - Broken Button<span>40%</span></p>
 											<div class="progress">
 												<div class="progress-bar bg-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-													<span class="sr-only">40% Complete (success)</span>
+													<span class="visually-hidden">40% Complete (success)</span>
 												</div>
 											</div>
 										</li>
@@ -307,11 +307,11 @@
 								</div>
 							</li>
 							<li class="dropdown">
-								<a href="#" id="notifications" data-toggle="dropdown" aria-haspopup="true">
+								<a href="#" id="notifications" data-bs-toggle="dropdown" aria-haspopup="true">
 									<i class="icon-bell"></i>
 									<span class="count-label">8</span>
 								</a>
-								<div class="dropdown-menu dropdown-menu-right lrg" aria-labelledby="notifications">
+								<div class="dropdown-menu dropdown-menu-end lrg" aria-labelledby="notifications">
 									<div class="dropdown-menu-header">
 										Notifications (40)
 									</div>
@@ -356,13 +356,13 @@
 								</div>
 							</li>
 							<li class="dropdown">
-								<a href="#" id="userSettings" class="user-settings" data-toggle="dropdown" aria-haspopup="true">
+								<a href="#" id="userSettings" class="user-settings" data-bs-toggle="dropdown" aria-haspopup="true">
 									<span class="user-name">Gail</span>
 									<span class="avatar">
 										<img src="img/gail.png" alt="avatar">										
 									</span>
 								</a>
-								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="userSettings">
+								<div class="dropdown-menu dropdown-menu-end" aria-labelledby="userSettings">
 									<div class="header-profile-actions">
 										<div class="header-user-profile">
 											<div class="header-user">
@@ -393,7 +393,7 @@
 					</ol>
 					<ul class="app-actions">						
 						<li>
-							<a href="lead.html" class="icon red" data-toggle="tooltip" data-placement="bottom" title="Back">
+							<a href="lead.html" class="icon red" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Back">
 								<i class="icon-arrow-left-circle"></i>
 							</a>
 						</li>										
@@ -414,31 +414,31 @@
 
 									<div class="row gutters">
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputName">Full Name</label>
 												<input type="text" class="form-control" id="inputName" placeholder="Enter full name">
 											</div>
 										</div>
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Email</label>
 												<input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
 											</div>
 										</div>										
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Contact Number</label>
 												<input type="email" class="form-control" id="inputEmail" placeholder="Enter Contact Number">
 											</div>
 										</div>
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Time</label>
 												<input type="email" class="form-control" id="inputEmail" placeholder="Select Time">
 											</div>
 										</div>
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Nationality</label>
 												<select class="form-control selectpicker" data-live-search="true">																	
 													<option>India</option>
@@ -449,7 +449,7 @@
 											</div>
 										</div>
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 											<label class="label">Date of Birth</label>
 												<div class="custom-date-input">
 											         <input type="text" name="" class="form-control datepicker-dropdowns" placeholder="Select DOB">
@@ -457,25 +457,25 @@
 											</div>
 										</div>
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Age</label>
 												<input type="email" class="form-control" id="inputEmail" placeholder="Enter Age">
 											</div>
 										</div>
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Education</label>
 												<input type="email" class="form-control" id="inputEmail" placeholder="Enter Education">
 											</div>
 										</div>
                                         <div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Occupation</label>
 												<input type="email" class="form-control" id="inputEmail" placeholder="Enter Occupation">
 											</div>
 										</div>
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Marital Status</label>
 												<select class="form-control selectpicker" data-live-search="true">																	
 													<option>Single</option>
@@ -485,7 +485,7 @@
 											</div>
 										</div>
                                         <div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Country of Residence</label>
 												<select class="form-control selectpicker" data-live-search="true">																	
 													<option>India</option>
@@ -505,7 +505,7 @@
 											     </select>												
 										</div>
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Which of the following are you interested in?</label>
 												    <select class="form-control selectpicker" data-live-search="true">																	
 													<option>Work Permit</option>
@@ -517,7 +517,7 @@
 											</div>
 										</div>
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Best time to call you</label>
 												<input type="email" class="form-control" id="inputEmail" placeholder="Select Time">
 											</div>
@@ -554,7 +554,7 @@
 											</select>
 										</div> 										
 										<div class="col-xl-4 col-lglg-4 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Status</label>
 												<select class="form-control selectpicker" data-live-search="true">																
 													<option>Pending</option>
@@ -564,14 +564,14 @@
 											</div>
 										</div>
 										<div class="col-xl-12 col-lglg-12 col-md-4 col-sm-4 col-12">
-											<div class="form-group">
+											<div class="mb-3">
 												<label for="inputEmail">Remarks</label>
 												<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 											</div>
 										</div>
 									</div>
                                          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-											<div class="text-right">
+											<div class="text-end">
 												<button type="button" id="submit" name="submit" class="btn btn-white">Back</button>
 												<button type="button" id="submit" name="submit" class="btn btn-primary">Submit</button>
 											</div>
